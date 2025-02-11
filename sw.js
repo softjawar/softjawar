@@ -12,6 +12,7 @@ const ARCHIVOS = [
     "camara.html",
     "gps.html",
     "index.html",
+    "site.webmanifest",
     "/"
 ]
 
