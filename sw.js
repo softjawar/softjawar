@@ -1,4 +1,4 @@
-const VERSION = "1.00"
+const VERSION = "1.10"
 
 const CACHE = "pwamd"
 
