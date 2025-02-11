@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" class="light dark">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Archivos y Cámara - PWA con MD</title>
+
+    <script src="js/registraServiceWorker.js"></script>
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#fffbfe">
+    <link rel="icon" sizes="32x32" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <script src="ungap/custom-elements.js"></script>
+
+    <script type="module" src="js/configura.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/transicion_pestanas.css">
+    <link rel="expect" blocking="render" href="#navbar">
+</head>
+
+<body style="padding-bottom: 5rem;">
+
+    <md-top-app-bar headline="headline">
+
+        <h1>Archivos y Cámara</h1>
+    </md-top-app-bar>
+    <center>
+        <title>Archivos y Cámara</title>
+        <style>
+            html {
+                color-scheme: light dark;
+            }
+        </style>
+        </head>
+
+        <body>
+            <h1>Archivos y Cámara</h1>
+            <p>
+                <label>
+      Foto de Móvil
+      <input type="file"
+        accept="image/*"
+        capture="camera">
+     </label>
+            </p>
+            <p>
+                <label>
+      Video de Móvil
+      <input type="file"
+        accept="video/*"
+        capture="">
+     </label>
+            </p>
+            <p>
+                <label>
+      Archivo
+      <input type="file">
+     </label>
+            </p>
+    </center>
+    </md-overflow-menu>
+
+    <nav-bar></nav-bar>
+
+    </body>
+
+</html>
